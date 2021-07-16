@@ -1,7 +1,7 @@
 - 👋 Hello, I’m @AbdullahiMohamedYusuf
 - 👀 I’m interested in ["Programming","Reading","Video games"];
 - 🌱 I’m currently learning ["MongoDB"];
-- 📫 How to reach me at AbdullahiMohamedYusuf@gmail.com
+- 📫 How to reach me : AbdullahiMohamedYusuf@gmail.com
 
 <!---
 AbdullahiMohamedYusuf/AbdullahiMohamedYusuf is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
