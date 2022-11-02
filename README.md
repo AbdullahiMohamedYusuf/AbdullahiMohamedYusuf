@@ -1,6 +1,6 @@
 - 👋 Hello, I’m @AbdullahiMohamedYusuf
 - 👀 I’m interested in ["Programming","Reading","Video games"];
-- 🌱 I’m currently learning ["MongoDB", "Solidity"];
+- 🌱 I’m currently learning ["Flutter", "Solidity"];
 - 📫 How to reach me : AbdullahiMohamedYusuf04@gmail.com
 
 <!---
