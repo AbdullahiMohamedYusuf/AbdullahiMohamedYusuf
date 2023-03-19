@@ -1,0 +1,169 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+/*Header*/
+header {
+  border-bottom: 0.5px solid rgb(238, 236, 236);
+}
+
+/*Menu grejer*/
+nav {
+  display: flex;
+  max-width: 1500px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  left: 80px;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+.nav ul li {
+  padding: 1em;
+}
+#fav:hover {
+  cursor: pointer;
+}
+#fav:active {
+  color: red;
+  border: none;
+}
+
+/*Search bar*/
+.search-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 8px 30px 1px grey;
+  border-radius: 50px;
+  border: none;
+  width: 470px;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+button[type="submit"] {
+  background-color: #ddd;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/*Other nav*/
+
+.media-container {
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  margin: 0;
+}
+
+.media {
+  display: flex;
+  max-width: 1600px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.container-header {
+  border-bottom: 0.5px solid rgb(238, 236, 236);
+  align-items: center;
+}
+
+.social ul {
+  display: flex;
+  flex-direction: row;
+}
+.social li {
+  padding-right: 30px;
+}
+.social a {
+  color: grey;
+  font-size: 20px;
+}
+.Lang select {
+  border: white;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.Lang select#xyz {
+  border: none;
+  outline: none;
+}
+
+/*CATEGORIES*/
+.category {
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: auto;
+}
+.category li {
+  padding-left: 10px;
+}
+.category a {
+  color: #000;
+  font-weight: bold;
+  font-size: 17px;
+}
+/*animationer*/
+#fav:hover {
+  animation:heartbeat 3s infinite;
+  color: red;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}

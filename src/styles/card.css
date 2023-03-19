@@ -1,0 +1,66 @@
+
+/* CSS styles for ProductCard component */
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 8px 30px 1px grey;
+
+  }
+  
+  .product-card img {
+    max-width: 100%;
+  }
+  
+  .product-card h2 {
+    margin-top: 0;
+  }
+  
+  .product-card p {
+    margin: 10px 0;
+    font-weight: bold;
+    
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    width:120px;
+    height: 30px;
+    align-items: center;
+  }
+  
+  .product-card button:hover {
+    background-color: #0062cc;
+  }
+
+  .product-list {
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 2 0px;
+  }
+  
+
+  .product-card img{
+    height: 50px;
+    width: 50px;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+  }
